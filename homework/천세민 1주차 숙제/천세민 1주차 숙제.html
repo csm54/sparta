@@ -16,46 +16,46 @@
 	<div class="text-box">
 		<p class="intro">
 			<h1>다람쥐 발난로</h1>
-			<h6>가격 : 40000원</h6>
+			<h6 class="price">가격 : 40000원</h6>
 			<h6> 요즘같은 추운 날씨에 발을 따듯하게 보호하세요! 전기 장판이 내장되어 있어 아주 빠르게 열이 전달됩니다.</h6>
 		</p>
 
 		<!-- 주문자 이름 -->
-		<p class="order">
-			<span class="input-group-text" id="basic-addon3">주문자 이름</span>
-			<input type="text">
-		</p>
+		<div class="input-group mb-3">
+			<div class="input-group-prepend">
+				<span class="input-group-text" id="basic-addon3">주문자 이름</span>
+			</div>
+			<input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+		</div>
 
 		<!-- 수량 -->
-		<p class="input-group mb-3">
+		<div class="input-group mb-3">
 			<div class="input-group-prepend">
 				<label class="input-group-text" for="inputGroupSelect01">수량</label>
 			</div>
 			<select class="custom-select" id="inputGroupSelect01">
-				<option selected>Choose...</option>
+				<option selected>-----------------수량을 선택하세요-----------------</option>
 				<option value="1">1</option>
 				<option value="2">2</option>
 				<option value="3">3</option>
-				<option value="4">4</option>
-				<option value="5">5</option>
-				<option value="6">6</option>
-
 			</select>
-		</p>
+		</div>
 
 		<!-- 주소 -->
-		<p class="order">
-			<span class="input-group-text" id="basic-addon3">주소
-			</span>
-			<input type="text">
-		</p>
+		<div class="input-group mb-3">
+			<div class="input-group-prepend">
+				<span class="input-group-text" id="basic-addon3">주소</span>
+			</div>
+			<input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+		</div>
 
 		<!-- 전화번호 -->
-		<p class="order">
-			<span class="input-group-text" id="basic-addon3">전화번호
-			</span>
-			<input type="text">
-		</p>
+		<div class="input-group mb-3">
+			<div class="input-group-prepend">
+				<span class="input-group-text" id="basic-addon3">전화번호</span>
+			</div>
+			<input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+		</div>
 		<button type="button" class="btn btn-primary">주문하기</button>
 	</div>
 
